@@ -107,10 +107,6 @@ public class UserMenu {
 
                     updateCompanyList();
 
-                    System.out.println("Choose a company:");
-                    listAllCompanies();
-                    System.out.println("0. Back");
-
                     int chosenCompanyIndex = companyPickerMenu();
                     int chosenCompanyID = chosenCompanyIndex + 1;
                     updateCarListSelectedCompany(chosenCompanyID);
