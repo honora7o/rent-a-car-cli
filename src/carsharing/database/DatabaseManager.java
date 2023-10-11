@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class DatabaseManager {
     private Connection connection = null;
     private Statement stmt = null;
-    private String jdbcURL = "jdbc:h2:file:../db/";
+    private String jdbcURL = "jdbc:h2:file:./db/";
 
     public DatabaseManager(String dbFileName) {
         this.jdbcURL = jdbcURL + dbFileName;
